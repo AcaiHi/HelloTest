@@ -68,9 +68,38 @@ void GetData(int &x, int &y, int &z) {
     std::cout << "輸入英文成績: "; std::cin >> y;
     std::cout << "輸入數學成績: "; std::cin >> z;
 }
+
+class TestingGetInput{
+public:
+    void input();
+    void input(int x);
+    void input(int x, int y);
+};
+void TestingGetInput::input(){
+    std::cout << '\n';
+}
+void TestingGetInput::input(int x) {
+    std::cout << x << std::endl;
+}
+void TestingGetInput::input(int x, int y) {
+    std::cout << x << ' ' << y << std::endl;
+}
+
+class TestingArrayInit{
+    int arr[];
+    TestingArrayInit(int newArray[]){
+        swap(arr, newArray);
+    }
+    ~TestingArrayInit() {
+        for (  hhhhhhhhhhhhhhh gggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggggg                edddddddddddddddddddddddddd tv5njm6)
+    }
+};
 int main() {
-    int x, y, z; GetData(x, y, z);
-    Student tt = Student(x, y, z);
-    tt.show_data();
+    // int x, y, z; GetData(x, y, z);
+    // Student tt = Student(x, y, z);
+    // tt.show_data();
+    
+    // TestingGetInput tt = TestingGetInput();
+    // tt.input(); tt.input(1); tt.input(1, 2);
     return 0;
 }
