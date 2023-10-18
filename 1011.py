@@ -20,7 +20,7 @@ for i in range(1, days + 1):
     salary = 0.01 * 2 ** (i -1)
     print(format(i, '3.0f'), '\t\t$', format(salary, '8.2f'))
     total += salary
-print('The total pay at the end of the period is $', total)
+print('The total pay at the end of the period is $', format(total, '.2f'))
 
 # Chapter.4
 # 08. Sum of Numbers
