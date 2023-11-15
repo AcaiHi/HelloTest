@@ -40,7 +40,7 @@ while y == 'y' or y == 'Y':
     guess(r)
     y = input('Do this again? If yes, enter y or Y. If no, enter other letters')
 
-    # Chapter.5
+# Chapter.5
 # 21. Rock, Paper, Scissors Game
 
 import random
