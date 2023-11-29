@@ -1,0 +1,1 @@
+{"name":"Local: B","url":"d:\\Python作業\\HelloTest\\B.cpp","tests":[{"id":1700043044544,"input":"100\n30\n20","output":""},{"id":1700043077290,"input":"50\n2\n1.5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Python作業\\HelloTest\\B.cpp","group":"local","local":true}
